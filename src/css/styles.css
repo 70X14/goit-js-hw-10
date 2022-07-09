@@ -11,55 +11,37 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+img {
+  width: 30px;
+  margin-right: 5px;
+}
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  
 }
-
-input {
-  border: 1px solid rgb(218, 218, 223);
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid rgb(57, 10, 226);
-  outline: none;
-}
-
-input::placeholder {
-  font-size: 14px;
-  font-style: italic;
-}
-
 .country-list {
   list-style: none;
-  padding-left: 0;
-  margin: 0;
+  
 }
-
-.country-list__item {
+.country-info-list {
+  list-style: none;
+}
+.country-item {
   display: flex;
-  margin-bottom: 20px;
   align-items: center;
-  font-size: 22px;
-  font-weight: 500;
 }
-
-.country-list__img {
-  margin-right: 10px;
-}
-
-.country-info__name {
-  margin-bottom: 10px;
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.country-info__desc {
-  margin-bottom: 5px;
-  font-size: 20px;
-}
+.country-info-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  }
+  .country-info_el {
+    font-weight: bold;
+    
+  }
+  .info-name {
+    font-size: 45px;
+  }
